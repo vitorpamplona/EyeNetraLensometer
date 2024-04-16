@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPickerLabels"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+
+
+            <TextView
+                style="@style/BoxText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="@string/result_sph"
+                android:background="@drawable/bkg_text_box"
+                />
+
+            <NumberPicker
+                android:id="@+id/numberPickerSph"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPickerLabelsCyl"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/BoxText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="@string/result_cyl"
+                android:background="@drawable/bkg_text_box"
+                />
+
+            <NumberPicker
+                android:id="@+id/numberPickerCyl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPickerLabelsAxis"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/BoxText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:text="@string/result_axis"
+                android:background="@drawable/bkg_text_box"
+                />
+
+            <NumberPicker
+                android:id="@+id/numberPickerAxis"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPickerLabelsAdd"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/BoxText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="@string/result_add"
+                android:background="@drawable/bkg_text_box"
+                />
+
+            <NumberPicker
+                android:id="@+id/numberPickerAdd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numberPicker"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:text="Cancel"
+            style="@style/Header"
+            android:textColor="@color/btn_next_text"
+            android:background="@drawable/btn_next"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btSave"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:text="Apply"
+            style="@style/Header"
+            android:textColor="@color/btn_next_text"
+            android:background="@drawable/btn_next"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

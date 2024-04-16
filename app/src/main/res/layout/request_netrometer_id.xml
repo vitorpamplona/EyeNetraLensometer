@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/numberPickerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="@string/capturing_netrometer_ID_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Dialog"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tag"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:text="NM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/List"
+                android:layout_weight="1"
+
+                android:gravity="right"
+                android:id="@+id/textView3" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="5"
+                style="@style/List"
+
+                android:layout_weight="1"
+                android:id="@+id/edNetroId"
+                android:hint="00001" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numberPickerLayout"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:text="Cancel"
+            style="@style/Header"
+            android:textColor="@color/btn_next_text"
+            android:background="@drawable/btn_next"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btSave"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:text="Apply"
+            style="@style/Header"
+            android:textColor="@color/btn_next_text"
+            android:background="@drawable/btn_next"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

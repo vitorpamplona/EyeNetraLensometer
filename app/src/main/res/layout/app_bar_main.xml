@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <SurfaceView
+        android:id="@+id/surface"
+        android:layout_width="1080px"
+        android:layout_height="1920px" />
+
+    <FrameLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"/>
+
+    <!-- SurfaceView to attach camera surface holder -->
+
+    <RelativeLayout
+        android:id="@+id/navigation_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu_toolbar"
+            app:elevation="0dp"
+            android:background="@color/toolbarTransparent"
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/background_header"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="3dp"
+                        android:src="@drawable/logo"
+                        android:id="@+id/logovertical" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/printer"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center" >
+
+                        <ImageView
+
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="5dp"
+                            android:scaleX="0.6"
+                            android:scaleY="0.6"
+                            android:padding="16dp"
+                            android:scaleType="centerInside"
+                            style="@style/Header"
+                            android:textColor="@color/btn_next_text"
+                            android:background="@drawable/print_icon"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/showCamera"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center" >
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="5dp"
+                            android:id="@+id/show_camera_button"
+                            android:scaleX="0.6"
+                            android:scaleY="0.6"
+                            android:padding="16dp"
+                            android:scaleType="centerInside"
+                            style="@style/Header"
+                            android:textColor="@color/btn_next_text"
+                            android:background="@drawable/ic_visibility_off_black_24dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/new_reading"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center" >
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/new_reading_button"
+                            android:layout_marginRight="5dp"
+                            android:scaleX="0.6"
+                            android:scaleY="0.6"
+                            android:padding="16dp"
+                            android:scaleType="centerInside"
+                            style="@style/Header"
+                            android:textColor="@color/btn_next_text"
+                            android:background="@drawable/ic_add_circle_outline_black_24dp" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+                
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:visibility="gone"
+            android:layout_below="@+id/menu_toolbar"
+            android:indeterminate="true"
+            android:indeterminateOnly="false"
+            android:padding="0dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="-10dp" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/progress"
+            android:background="@color/box_background"/>
+
+        <FrameLayout
+            android:id="@+id/fragment_view"
+            android:layout_below="@id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

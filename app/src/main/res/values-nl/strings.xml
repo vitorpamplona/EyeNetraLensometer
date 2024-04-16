@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">Netrometer</string>
+    <string name="account_name">EyeNetra</string>
+
+    <string name="load_left_hold_trigger">LAAD LINKS\nHOUD TREKKER VAST</string>
+    <string name="load_right_hold_trigger">LAAD RECHTS\nHOUD TREKKER VAST</string>
+    <string name="scanning">AAN HET SCANNEN</string>
+    <string name="adjust_position">PAS POSITIE AAN</string>
+    <string name="trigger_to_start">TREKKER OM TE BEGINNEN</string>
+
+    <string name="we_are_all_set_title">ALLES INGESTELD</string>
+    <string name="we_are_all_set_desc">Laten we beginnen.</string>
+
+    <string name="remove_lens_title">ER KLOPT IETS NIET</string>
+    <string name="remove_lens_desc">Niet in staat om te kalibreren. Zorg ervoor dat er GEEN LENS is ingevoegd</string>
+
+    <string name="unable_to_find_pattern_title">ER KLOPT IETS NIET</string>
+    <string name="unable_to_find_pattern_desc">Niet in staat om te kalibreren. Controleer of de telefoon correct op de Netrometer is geplaatst.</string>
+
+    <string name="message_cant_find_pattern">Niet in staat om het patroon te vinden</string>
+    <string name="message_adjust_glass_position">pas de lens positie aan</string>
+    <string name="invalid_results_no_lenses">Ongeldige resultaten. Zorg ervoor dat de juiste lens is ingevoegd.</string>
+
+    <string name="start_screen">Start Scherm</string>
+    <string name="result_screen">RESULTATEN</string>
+    <string name="right_result_column">RECHTS</string>
+    <string name="left_result_column">LINKS</string>
+
+    <string name="wait">Even wachten....</string>
+    <string name="hold_trigger">Houd Trekker vast</string>
+    <string name="hold_trigger_tap_next">Houd Trekker vast en Tik op Volgende</string>
+    <string name="hold_trigger_to_restart">Houd Trekker vast om opnieuw te starten</string>
+    <string name="tap_to_start">Tik om te starten</string>
+    <string name="tap_to_restart">Verwijder Lens en Tik om opnieuw te starten</string>
+    <string name="start_uppercase">START</string>
+    <string name="restart_uppercase">START OPNIEUW</string>
+    <string name="finish_uppercase">AFWERKING</string>
+    <string name="finish_with_note_uppercase">VOEG EEN AANTEKENING TOE</string>
+    <string name="next_uppercase">VOLGENDE</string>
+    <string name="load_left">LAAD LINKERLENS</string>
+    <string name="load_left_distance">LAADAFSTAND LINKS</string>
+    <string name="load_left_near">LAAD DICHTBIJ LINKS</string>
+    <string name="load_right">LAAD RECHTERLENS</string>
+    <string name="load_right_distance">LAADAFSTAND RECHTS</string>
+    <string name="load_right_near">LAAD DICHTBIJ RECHTS</string>
+    <string name="load_skip_near">SLA LAAD DICHTBIJ OVER</string>
+    <string name="login">INLOGGEN</string>
+    <string name="signup">AANMELDEN</string>
+    <string name="waiting_for_glasses">Aan het wachten\nop Bril</string>
+
+    <string name="navigation_drawer_open">Open navigatielade</string>
+    <string name="navigation_drawer_close">Sluit navigatielade</string>
+    <string name="action_settings">Instellingen</string>
+
+    <string name="not_online_title">Apparaat is offline</string>
+    <string name="not_online_desc">Maak verbinding met uw Wi-Fi voor onze mobiele gegevens voordat u inlogt of aanmeldt</string>
+
+    <string name="missing_email">Ontbrekende E-mail</string>
+    <string name="insert_valid_email">Voer een geldige e-mail in</string>
+    <string name="invalid_email_title">Ongeldig e-mailadres</string>
+    <string name="email_format_is_invalid">E-mailformaat is ongeldig</string>
+    <string name="invalid_password">Ongeldig Wachtwoord</string>
+    <string name="insert_a_valid_password">Voer een wachtwoord van 8 letters en cijfers in</string>
+    <string name="authenticating">Aan het verifiëren ...</string>
+    <string name="invalid_login_msg">Verkeerd e-mailadres of wachtwoord</string>
+    <string name="login_invalid">Ongeldige Login</string>
+    <string name="incomplete_sign_up">Onvolledige Aanmelding</string>
+
+    <string name="minus_cyl_label">-CYL</string>
+    <string name="plus_cyl_label">+ CYL</string>
+
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+
+    <string name="add_note">Voeg een Aantekening toe</string>
+    <string name="add_note_desc">Label resultaten met een korte identifier</string>
+    <string name="add_note_hint">Naam van patiënt</string>
+
+    <string name="login_to_see_your_account">Meld u aan om uw account te zien</string>
+    <string name="login_required">Inloggen is vereist</string>
+    <string name="default_organization_name">Mijn Oogzorg Praktijk</string>
+
+    <string name="save">Sla op</string>
+    <string name="cancel">Annuleer</string>
+    <string name="ok">OK</string>
+
+    <string name="requesting_token">Token aan het opvragen...</string>
+    <string name="number_prefix_reading_card_empty_note">Lens</string>
+    <string name="today">VANDAAG</string>
+    <string name="yesterday">GISTEREN</string>
+
+    <string name="menu_home">Huis</string>
+    <string name="menu_visits">Bezoeken (Premium)</string>
+    <string name="menu_customers">Klanten (Premium)</string>
+    <string name="menu_measurements">Waarden</string>
+    <string name="menu_support">Ondersteuning</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="menu_signoff">Afmelden</string>
+    <string name="result_sph">SPH</string>
+    <string name="result_cyl">CYL</string>
+    <string name="result_axis">AS</string>
+    <string name="result_add">ADD</string>
+    <string name="netrometer_title">NETROMETER</string>
+    <string name="no_lens_text">Zorg ervoor dat er\nGEEN LENS is ingevoegd wanneer\nop de knop wordt getikt.</string>
+    <string name="no_lens_text_calibrating">Voeg de lens nog niet in. Camera aan het Initialiseren ...</string>
+    <string name="single_vision">ENKELE VISIE</string>
+    <string name="progressive">VARIFOCALE</string>
+    <string name="latest_readings">LAATSTE WAARDEN</string>
+    <string name="welcome">Welkom</string>
+    <string name="email_login">E-mail</string>
+    <string name="password_login">Wachtwoord</string>
+    <string name="pd_result">PD:</string>
+    <string name="notes_subtitle">Aantekeningen</string>
+    <string name="netrometer_results">NETROMETER RESULTATEN</string>
+    <string name="eyenetra_lensmeter">EyeNetra Lensmeter</string>
+    <string name="od">RO</string>
+    <string name="os">LO</string>
+    <string name="right_eye_short">RO</string>
+    <string name="left_eye_short">LO</string>
+
+    <string name="adjust_refraction">SUBJECTIEVE REFRACTIE</string>
+    <string name="refining_refraction">SUBJECTIEVE REFRACTIE</string>
+    <string name="skip_near_button">Sla Dichtbij over</string>
+    <string name="restart_phone_camera_locked">Gelieve de telefoon opnieuw te starten. De camera is vergrendeld door een andere toepassing.</string>
+
+    <string name="calibrating">AAN HET KALIBREREN</string>
+    <string name="attention_no_lens">Let op! Zorg ervoor dat er GEEN LENS is ingevoegd</string>
+
+    <string name="patient">Geduldig</string>
+    <string name="app">App</string>
+    <string name="acuity_label">Visus</string>
+    <string name="acuity_imperial">20/20</string>
+    <string name="acuity_metric">6/6</string>
+    <string name="minus_cylinder">Minus</string>
+    <string name="plus_cylinder">Plus</string>
+    <string name="sph_equivalent">SphEq</string>
+    <string name="spherocylindrical">Sph+Cyl</string>
+    <string name="sphere">Sferisch</string>
+    <string name="display_results_as">LAAT DE RESULTATEN IN</string>
+    <string name="language_uppercase">TAAL</string>
+    <string name="settings_header">INSTELLINGEN</string>
+    <string name="cylinder_label">Cilinder</string>
+    <string name="sph_eq_label">SEQ</string>
+    <string name="remove_glasses">\nVerwijder glazen\nen opnieuw\nin te voegen</string>
+    <string name="bifocals">BIFOCALE</string>
+    <string name="forgot_your_password"><a href="http://insight.eyenetra.com/recover_password"> Bent u uw wachtwoord vergeten? Reset hem hier! </a></string>
+    <string name="please_insert_spherical_powers_desc">Voeg alsjeblieft de sferische krachten toe voor de linker- en rechterogen en de overeenkomstige afstand.</string>
+    <string name="date_of_birth">Geboortedatum</string>
+    <string name="login_or_create_account">Login of creëer een account</string>
+    <string name="age_hint">Leeftijd</string>
+</resources>

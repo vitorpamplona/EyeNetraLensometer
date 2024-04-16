@@ -1,0 +1,26 @@
+<resources>
+
+    <dimen name="button_height">144dp</dimen>
+    <dimen name="crosshair_view_height">160dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="button_stroke_width">4dp</dimen>
+
+    <dimen name="button_size">78dp</dimen>
+    <dimen name="default_button_size">70dp</dimen>
+    <dimen name="default_button_half_size">35dp</dimen>
+    <dimen name="default_button_half_half_size">17dp</dimen>
+
+    <dimen name="buttons_margin_top">46dp</dimen>
+    <dimen name="text_size_primary">48dp</dimen>
+
+    <dimen name="text_size_default">18sp</dimen>
+
+</resources>

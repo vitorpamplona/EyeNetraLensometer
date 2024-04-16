@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Header">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="HeaderSmartStage">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_dark_blue</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="CardHeader">
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/sub_header_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="CardSubHeader">
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/sub_header_text</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="CardTime">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/buttonsColor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="SubHeader">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="SubSubHeader">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/sub_header_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="SubSubHalfHeader">
+        <item name="android:textColor">@color/sub_header_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="SubSubSubHeader">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/sub_header_text</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="SubSubHalfHeaderLink">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/sub_header_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle"></item>
+    </style>
+
+    <style name="SubSubSubSubHeader">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/sub_header_text</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="AccountMenu">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/sub_header_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="BoxText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/box_header_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MinusCylBoxText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/box_header_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SphCylBoxText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/box_header_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SphEqBoxText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/box_background</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SphCylChangeBoxText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/box_background</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SphEqChangeBoxText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/box_header_text</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PlusCylBoxText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/box_background</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MinusCylChangeBoxText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/box_background</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PlusCylChangeBoxText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/box_header_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SubBoxText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/box_header_text</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginBottom">2sp</item>
+        <item name="android:layout_marginTop">3sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="List">
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/sub_header_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Dialog">
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/sub_header_text</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

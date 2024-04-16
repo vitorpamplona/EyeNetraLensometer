@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent" >
+
+<FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp">
+
+            <ImageView
+                android:id="@+id/glasses"
+                android:layout_width="2296dp"
+                android:layout_height="1008dp"
+                android:layout_x="-817dp"
+                android:layout_y="-385dp"
+                android:src="@drawable/glasses_single_vision" />
+
+            <com.vitorpamplona.netrometer.activity.views.CrosshairView
+                android:id="@+id/crosshair_view"
+                android:layout_width="match_parent"
+                android:layout_y="175dp"
+                android:layout_height="@dimen/crosshair_view_height"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/warning_no_glasses"
+                style="@style/SubHeader"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/crosshair_view_height"
+                android:layout_x="-4dp"
+                android:layout_y="161dp"
+                android:text="@string/waiting_for_glasses"
+                android:textIsSelectable="false"
+                android:typeface="normal" />
+
+
+        </AbsoluteLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Header"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/load_left"
+        android:id="@+id/instructions_1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SubHeader"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/instructions_1"
+        android:text="@string/hold_trigger_tap_next"
+        android:id="@+id/instructions_2" />
+
+    <LinearLayout
+        android:id="@+id/realtime_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instructions_2"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="48dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/realtime_results_sph"
+                style="@style/SubHeader"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="-2.00" />
+
+            <TextView
+                android:id="@+id/realtime_results_cyl"
+                style="@style/SubHeader"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="-0.50" />
+
+            <TextView
+                android:id="@+id/realtime_results_axis"
+                style="@style/SubHeader"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="180" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/phone_frame"
+        android:layout_marginTop="188dp"
+        android:layout_below="@+id/realtime_results"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="238px"
+        android:layout_alignParentBottom="true"
+        android:text="@string/next_uppercase"
+        style="@style/Header"
+        android:layout_margin="16dp"
+        android:textColor="@color/btn_next_text"
+        android:background="@drawable/btn_next"
+        />
+
+</RelativeLayout>

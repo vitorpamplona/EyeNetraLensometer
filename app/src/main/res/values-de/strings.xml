@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">Netrometer</string>
+    <string name="account_name">EyeNetra</string>
+
+    <string name="load_left_hold_trigger">LINKS EINLEGEN\nAUSLÖSER HALTEN</string>
+    <string name="load_right_hold_trigger">RECHTS EINLEGEN\nAUSLÖSER HALTEN</string>
+    <string name="scanning">SCANNEN</string>
+    <string name="adjust_position">POSITION ANPASSEN</string>
+    <string name="trigger_to_start">ZUM STARTEN AUSLÖSEN</string>
+
+    <string name="we_are_all_set_title">ALLES BEREIT</string>
+    <string name="we_are_all_set_desc">Los geht\'s.</string>
+
+    <string name="remove_lens_title">ETWAS STIMMT NICHT</string>
+    <string name="remove_lens_desc">Kalibrieren nicht möglich. Vergewissern Sie sich, dass KEINE LINSE eingelegt ist</string>
+
+    <string name="unable_to_find_pattern_title">ETWAS STIMMT NICHT</string>
+    <string name="unable_to_find_pattern_desc">Kalibrieren nicht möglich. Vergewissern Sie sich, dass das Handy korrekt im Netrometer eingelegt ist.</string>
+
+    <string name="message_cant_find_pattern">Muster kann nicht gefunden werden</string>
+    <string name="message_adjust_glass_position">Passen Sie die Linsenposition an</string>
+    <string name="invalid_results_no_lenses">Ungültige Ergebnisse. Vergewissern Sie sich, dass die Linse korrekt eingesetzt wurde.</string>
+
+    <string name="start_screen">Startbildschirm</string>
+    <string name="result_screen">ERGEBNISSE</string>
+    <string name="right_result_column">RECHTS</string>
+    <string name="left_result_column">LINKS</string>
+
+    <string name="wait">Warten...</string>
+    <string name="hold_trigger">Auslöser halten</string>
+    <string name="hold_trigger_tap_next">Auslöser halten und auf Weiter tippen</string>
+    <string name="hold_trigger_to_restart">Zum neu Starten Auslöser halten</string>
+    <string name="tap_to_start">Zum Starten tippen</string>
+    <string name="tap_to_restart">Zum neu Starten Linse entfernen und tippen</string>
+    <string name="start_uppercase">START</string>
+    <string name="restart_uppercase">NEUSTART</string>
+    <string name="finish_uppercase">FERTIG</string>
+    <string name="finish_with_note_uppercase">NOTIZ HINZUFÜGEN</string>
+    <string name="next_uppercase">WEITER</string>
+    <string name="load_left">LINKE LINSE EINLEGEN</string>
+    <string name="load_left_distance">FERNE LINKS EINLEGEN</string>
+    <string name="load_left_near">NÄHE LINKS EINLEGEN</string>
+    <string name="load_right">RECHTE LINSE EINLEGEN</string>
+    <string name="load_right_distance">FERNE RECHTS EINLEGEN</string>
+    <string name="load_right_near">NÄHE RECHTS EINLEGEN</string>
+    <string name="load_skip_near">NÄHE AUSLASSUNG EINLEGEN</string>
+    <string name="login">ANMELDEN</string>
+    <string name="signup">REGISTRIER</string>
+    <string name="waiting_for_glasses">Warten\nauf Brille</string>
+
+    <string name="navigation_drawer_open">Navigationsleiste öffnen</string>
+    <string name="navigation_drawer_close">Navigationsleiste schließen</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="not_online_title">Das Gerät ist offline</string>
+    <string name="not_online_desc">Bitte stellen Sie eine WLAN- oder Datenverbindung her, bevor Sie sich anmelden oder registrieren</string>
+
+    <string name="missing_email">E-Mail-Adresse fehlt</string>
+    <string name="insert_valid_email">Geben Sie eine gültige E-Mail-Adresse ein</string>
+    <string name="invalid_email_title">Ungültige E-Mail-Adresse</string>
+    <string name="email_format_is_invalid">E-Mail-Format ungültig</string>
+    <string name="invalid_password">Ungültiges Passwort</string>
+    <string name="insert_a_valid_password">Geben Sie ein Passwort aus 8 Buchstaben und Zahlen ein</string>
+    <string name="authenticating">Authentifizieren...</string>
+    <string name="invalid_login_msg">E-Mail-Adresse oder Passwort falsch</string>
+    <string name="login_invalid">Anmeldedaten ungültig</string>
+    <string name="incomplete_sign_up">Unvollständige Registrierung</string>
+
+    <string name="minus_cyl_label">-ZYL</string>
+    <string name="plus_cyl_label">+ZYL</string>
+
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+
+    <string name="add_note">Notiz hinzufügen</string>
+    <string name="add_note_desc">Ergebnisse mit einer Kurzbezeichnung versehen</string>
+    <string name="add_note_hint">Patientenname</string>
+
+    <string name="login_to_see_your_account">Melden Sie sich an, um Ihr Konto zu betrachten</string>
+    <string name="login_required">Anmeldung erforderlich</string>
+    <string name="default_organization_name">Meine Augenpflege-Praxis</string>
+
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+
+    <string name="requesting_token">Token wird angefordert...</string>
+    <string name="number_prefix_reading_card_empty_note">Linse</string>
+    <string name="today">HEUTE</string>
+    <string name="yesterday">GESTERN</string>
+
+    <string name="menu_home">Start</string>
+    <string name="menu_visits">Besuche (Premium)</string>
+    <string name="menu_customers">Kunden (Premium)</string>
+    <string name="menu_measurements">Messwerte</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_signoff">Abmelden</string>
+    <string name="result_sph">SPH</string>
+    <string name="result_cyl">ZYL</string>
+    <string name="result_axis">ACHSE</string>
+    <string name="result_add">ADD</string>
+    <string name="netrometer_title">NETROMETER</string>
+    <string name="no_lens_text">Vergewissern Sie sich,\ndass beim Tippen auf die Schaltfläche\nKEINE LINSE eingelegt ist.</string>
+    <string name="no_lens_text_calibrating">Linse noch nicht einlegen. Kamera wird initialisiert...</string>
+    <string name="single_vision">EINSTÄRKEN\nGLAS</string>
+    <string name="progressive">GLEITSICHT\nGLAS</string>
+    <string name="latest_readings">AKTUELLE MESSWERTE</string>
+    <string name="welcome">Willkommen</string>
+    <string name="email_login">E-Mail-Adresse</string>
+    <string name="password_login">Passwort</string>
+    <string name="pd_result">PD:</string>
+    <string name="notes_subtitle">Notizen</string>
+    <string name="netrometer_results">NETROMETER ERGEBNISSE</string>
+    <string name="eyenetra_lensmeter">EyeNetra Scheitelbrechwertmesser</string>
+    <string name="od">OD</string>
+    <string name="os">OS</string>
+    <string name="right_eye_short">OD</string>
+    <string name="left_eye_short">OS</string>
+
+    <string name="adjust_refraction">SUBJEKTIVE REFRAKTION</string>
+    <string name="refining_refraction">SUBJEKTIVE REFRAKTION</string>
+    <string name="skip_near_button">Nähe auslassen</string>
+    <string name="restart_phone_camera_locked">Bitte starten Sie das Handy neu. Kamera wird durch eine andere Anwendung blockiert.</string>
+
+    <string name="calibrating">KALIBRIERUNG</string>
+    <string name="attention_no_lens">Achtung! Vergewissern Sie sich, dass KEINE LINSE eingelegt ist</string>
+
+    <string name="patient">Geduldig</string>
+    <string name="app">App</string>
+    <string name="acuity_imperial">20/20</string>
+    <string name="acuity_metric">6/6</string>
+    <string name="minus_cylinder">Minus</string>
+    <string name="plus_cylinder">Plus</string>
+    <string name="sph_equivalent">SphEq</string>
+    <string name="spherocylindrical">Sph+Zyl</string>
+    <string name="sphere">Sphäre</string>
+    <string name="display_results_as">ERGEBNISSE IN</string>
+    <string name="language_uppercase">SPRACHE</string>
+    <string name="settings_header">EINSTELLUNGEN</string>
+    <string name="cylinder_label">Zylinder</string>
+    <string name="sph_eq_label">SEQ</string>
+    <string name="remove_glasses">\nEntfernen Gläser\nund wieder\neinfügen</string>
+    <string name="bifocals">BIFOKAL</string>
+    <string name="forgot_your_password"><a href="http://insight.eyenetra.com/recover_password"> Passwort vergessen? Setzen Sie es hier zurück! </a></string>
+    <string name="please_insert_spherical_powers_desc">Bitte addieren Sie die sphärischen Kräfte für das linke und rechte Auge sowie die Pupillenentfernung.</string>
+    <string name="date_of_birth">Geburtsdatum</string>
+    <string name="login_or_create_account">Einloggen oder Konto erstellen</string>
+    <string name="age_hint">Alter</string>
+
+</resources>

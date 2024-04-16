@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/instructions_1"
+        style="@style/HeaderSmartStage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/netrometer_sst_title" />
+
+    <TextView
+        android:id="@+id/instructions_2"
+        style="@style/SubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/no_lens_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/right"
+            android:id="@+id/removeStage"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:padding="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/netrometer_sst" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/start_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/start_single_vision"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_weight="1"
+
+                android:background="@drawable/single_sst"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:textColor="@color/btn_next_text"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/txSingleVision"
+                style="@style/SubSubSubHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/instructions_1"
+                android:layout_marginTop="8dp"
+                android:text="@string/single_vision" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/start_bifocal"
+                style="@style/Header"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:background="@drawable/bifocal_sst"
+
+                android:text="@string/bifocals"
+                android:textColor="@color/btn_next_text"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/txBifocals"
+                style="@style/SubSubSubHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/instructions_1"
+                android:layout_marginTop="8dp"
+                android:text="@string/bifocals" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/start_progressive"
+                style="@style/Header"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:background="@drawable/progressive_sst"
+                android:text="@string/progressive"
+                android:textColor="@color/btn_next_text"
+                android:textSize="22dp" />
+
+
+            <TextView
+                android:id="@+id/txProgressive"
+                style="@style/SubSubSubHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/instructions_1"
+                android:layout_marginTop="8dp"
+                android:text="@string/progressive" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

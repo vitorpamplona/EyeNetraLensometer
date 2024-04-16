@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">Netrometer</string>
+    <string name="account_name">EyeNetra</string>
+
+    <string name="load_left_hold_trigger">加载左\n控制扳柄</string>
+    <string name="load_right_hold_trigger">加载右\n控制扳柄</string>
+    <string name="scanning">扫描中</string>
+    <string name="adjust_position">调整位置</string>
+    <string name="trigger_to_start">触发开始</string>
+    
+    <string name="message_cant_find_pattern">无法找到图案</string>
+    <string name="message_adjust_glass_position">调整镜片位置</string>
+    <string name="invalid_results_no_lenses">无效结果。确保镜片正确插入。</string>
+
+    <string name="start_screen">开始画面</string>
+    <string name="result_screen">结果</string>
+    <string name="right_result_column">右</string>
+    <string name="left_result_column">左</string>
+
+    <string name="wait">等待...</string>
+    <string name="hold_trigger">控制扳柄</string>
+    <string name="hold_trigger_tap_next">控制扳柄并点击下一步</string>
+    <string name="hold_trigger_to_restart">控制扳柄重新开始</string>
+    <string name="tap_to_start">点击开始</string>
+    <string name="tap_to_restart">取下镜片并点击重新开始</string>
+    <string name="start_uppercase">开始</string>
+    <string name="restart_uppercase">重新开始</string>
+    <string name="finish_uppercase">完成</string>
+    <string name="finish_with_note_uppercase">添加注释</string>
+    <string name="next_uppercase">下一步</string>
+    <string name="load_left">加载左镜片</string>
+    <string name="load_left_distance">加载左侧远区</string>
+    <string name="load_left_near">加载左侧近区</string>
+    <string name="load_right">加载右镜片</string>
+    <string name="load_right_distance">加载右侧远区</string>
+    <string name="load_right_near">加载右侧近区</string>
+    <string name="login">登录</string>
+    <string name="signup">注册</string>
+    <string name="waiting_for_glasses">正在等待眼镜</string>
+
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="action_settings">设置</string>
+
+    <string name="not_online_title">设备离线</string>
+    <string name="not_online_desc">请登录或注册前连接到您的Wi-Fi或移动数据</string>
+
+    <string name="missing_email">缺少电子邮件</string>
+    <string name="insert_valid_email">插入有效的电子邮件</string>
+    <string name="invalid_email_title">无效的电子邮件</string>
+    <string name="email_format_is_invalid">电子邮件格式无效</string>
+    <string name="invalid_password">无效的密码</string>
+    <string name="insert_a_valid_password">插入包含​​8个字母和数字组成的密码</string>
+    <string name="authenticating">验证中...</string>
+    <string name="invalid_login_msg">电子邮件或密码错误</string>
+    <string name="login_invalid">登录信息无效</string>
+    <string name="incomplete_sign_up">未完成注册</string>
+
+    <string name="minus_cyl_label">- 散光度数</string>
+    <string name="plus_cyl_label">+ 散光度数</string>
+
+    <string name="add_note">添加注释</string>
+    <string name="add_note_desc">使用短标识符标记结果</string>
+    <string name="add_note_hint">患者姓名、电子邮件、研究编号</string>
+
+    <string name="login_to_see_your_account">登录查看您的帐户</string>
+    <string name="login_required">需要登录</string>
+    <string name="default_organization_name">我的护眼练习</string>
+
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+
+    <string name="requesting_token">正在请求令牌...</string>
+    <string name="number_prefix_reading_card_empty_note">镜片</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+
+    <string name="menu_home">首页</string>
+    <string name="menu_visits">访问（付费版）</string>
+    <string name="menu_customers">客户（付费版）</string>
+    <string name="menu_measurements">读数</string>
+    <string name="menu_support">支持</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_signoff">退出</string>
+    <string name="result_sph">球镜度数</string>
+    <string name="result_cyl">散光度数</string>
+    <string name="result_axis">散光轴位</string>
+    <string name="result_add">下加光度数</string>
+    <string name="netrometer_title">NETROMETER</string>
+    <string name="no_lens_text">确保手机完全\n连接且没有\n镜片插入。</string>
+    <string name="single_vision">单视</string>
+    <string name="progressive">渐进镜片测试功能</string>
+    <string name="latest_readings">最新读数</string>
+    <string name="welcome">欢迎</string>
+    <string name="email_login">电子邮件</string>
+    <string name="password_login">密码</string>
+    <string name="pd_result">瞳孔距离：</string>
+    <string name="notes_subtitle">注释</string>
+    <string name="right_eye_short">OD</string>
+    <string name="os">OS</string>
+    <string name="od">OD</string>
+    <string name="left_eye_short">OS</string>
+    <string name="eyenetra_lensmeter">EyeNetra Lensmeter</string>
+    <string name="netrometer_results">结果</string>
+    <string name="skip_near_button">跳过附近</string>
+
+    <string name="patient">患者</string>
+    <string name="app">应用</string>
+    <string name="acuity_imperial">20/20</string>
+    <string name="acuity_metric">6/6</string>
+    <string name="minus_cylinder">负数</string>
+    <string name="plus_cylinder">正数</string>
+    <string name="sph_equivalent">SphEq</string>
+    <string name="spherocylindrical">Sph+Cyl</string>
+    <string name="sphere">Sphere</string>
+    <string name="display_results_as">结果按</string>
+    <string name="language_uppercase">语言</string>
+    <string name="settings_header">设置</string>
+    <string name="cylinder_label">Cylinder</string>
+    <string name="adjust_refraction">调整折射</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="sph_eq_label">SEQ</string>
+    <string name="refining_refraction">主观验光</string>
+    <string name="remove_glasses">\n摘掉眼镜\n然后重新插入</string>
+    <string name="bifocals">双光眼镜</string>
+    <string name="we_are_all_set_desc">让我们开始吧。</string>
+    <string name="we_are_all_set_title">搞定</string>
+    <string name="remove_lens_title">有些不对</string>
+    <string name="remove_lens_desc">无法校准。 确保没有插入镜头。</string>
+    <string name="unable_to_find_pattern_title">有些不对</string>
+    <string name="unable_to_find_pattern_desc">无法校准。 确保没有插入镜头。</string>
+    <string name="calibrating">校准</string>
+    <string name="restart_phone_camera_locked">请重启手机。 相机被另一个应用程序锁定。</string>
+    <string name="attention_no_lens">注意！ 确保没有插入镜头</string>
+    <string name="load_skip_near">跳过近处</string>
+    <string name="no_lens_text_calibrating">初始化相机。 不要插入镜头。</string>
+    <string name="forgot_your_password"><a href="http://insight.eyenetra.com/recover_password">忘记密码？ 在这里重置它！</a></string>
+    <string name="please_insert_spherical_powers_desc">请为左眼和右眼添加球面光焦度以及瞳孔距离。</string>
+    <string name="date_of_birth">出生日期</string>
+    <string name="login_or_create_account">登录或者创建一个帐户</string>
+    <string name="age_hint">年龄</string>
+</resources>

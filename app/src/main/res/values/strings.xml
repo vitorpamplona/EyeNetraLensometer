@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Netrometer</string>
+    <string name="account_name">EyeNetra</string>
+
+    <string name="load_left_hold_trigger">LOAD LEFT \nHOLD TRIGGER</string>
+    <string name="load_right_hold_trigger">LOAD RIGHT \nHOLD TRIGGER</string>
+    <string name="scanning">SCANNING</string>
+    <string name="adjust_position">ADJUST POSITION</string>
+    <string name="trigger_to_start">TRIGGER TO START</string>
+
+    <string name="we_are_all_set_title">ALL SET</string>
+    <string name="we_are_all_set_desc">Let\'s get started. \n</string>
+
+    <string name="remove_lens_title">SOMETHING ISN\'T RIGHT</string>
+    <string name="remove_lens_desc">Unable to calibrate. Ensure that there is NO LENS inserted.</string>
+
+    <string name="unable_to_find_pattern_title">SOMETHING ISN\'T RIGHT</string>
+    <string name="unable_to_find_pattern_desc">Unable to calibrate. Please check if the phone is correctly placed into the Netrometer.</string>
+
+    <string name="flash_does_not_start_title">SOMETHING ISN\'T RIGHT</string>
+    <string name="flash_does_not_start_desc">Unable to start the Flash. Please contact EyeNetra\'s technical support.</string>
+
+    <string name="update_title">New Version is Available</string>
+    <string name="update_desc">Use the Play Store app to download the latest version of this application. We release a new version every other week. </string>
+    <string name="take_me_to_the_app">Take me to the Play Store</string>
+    <string name="no_not_now">No, not now</string>
+
+    <string name="camera_locked_title">Camera is Locked</string>
+    <string name="camera_locked_desc">The camera is currently being used by another application. Please close all other applications or simply restart the phone.</string>
+
+    <string name="message_cant_find_pattern">Unable to find the pattern</string>
+    <string name="message_adjust_glass_position">Adjust the lens position</string>
+    <string name="invalid_results_no_lenses">Invalid results. Make sure lens was inserted correctly. </string>
+
+    <string name="start_screen">Start Screen</string>
+    <string name="result_screen">RESULTS</string>
+    <string name="right_result_column">RIGHT</string>
+    <string name="left_result_column">LEFT</string>
+
+    <string name="wait">Wait...</string>
+    <string name="hold_trigger">Hold Trigger</string>
+    <string name="hold_trigger_tap_next">Hold Trigger and Tap Next</string>
+    <string name="hold_trigger_to_restart">Hold Trigger to restart</string>
+    <string name="tap_to_start">Tap to Start</string>
+    <string name="tap_to_restart">Remove Lens and Tap to Restart</string>
+    <string name="start_uppercase">START</string>
+    <string name="restart_uppercase">RESTART</string>
+    <string name="finish_uppercase">CLOSE</string>
+    <string name="finish_with_note_uppercase">ADD NOTE</string>
+    <string name="next_uppercase">NEXT</string>
+    <string name="load_left">LOAD LEFT LENS</string>
+    <string name="load_left_distance">LOAD DISTANCE LEFT</string>
+    <string name="load_left_near">LOAD NEAR LEFT</string>
+    <string name="load_right">LOAD RIGHT LENS</string>
+    <string name="load_right_distance">LOAD DISTANCE RIGHT</string>
+    <string name="load_right_near">LOAD NEAR RIGHT</string>
+    <string name="load_skip_near">LOAD SKIP NEAR</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="waiting_for_glasses">Waiting\nfor Glasses</string>
+    <string name="age_hint">Age</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="permission_request_title">Permission to Change System Settings</string>
+    <string name="permission_request_desc">This application needs your permission to change the system settings in order to make sure the results are accurate. On the next screen, please enable the permission. </string>
+
+    <string name="missing_email">Missing E-mail</string>
+    <string name="insert_valid_email">Insert a valid e-mail</string>
+    <string name="invalid_email_title">Invalid E-mail</string>
+    <string name="email_format_is_invalid">E-mail format invalid</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="insert_a_valid_password">Password must contain 8 chars and at least 1 number</string>
+    <string name="authenticating">Authenticating...</string>
+    <string name="invalid_login_msg">Wrong e-mail or password. Make sure the app is up to date with the PlayStore and try again.</string>
+    <string name="login_invalid">Login Invalid</string>
+    <string name="incomplete_sign_up">Incomplete Sign Up</string>
+
+    <string name="unable_to_complete_request">Unable to complete the request. Please make sure you are online. Message us at info@eyenetra.com if the problem persists.</string>
+
+    <string name="minus_cyl_label">-CYL</string>
+    <string name="plus_cyl_label">+CYL</string>
+
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+
+    <string name="add_note">Add a Note</string>
+    <string name="add_note_desc">Tag results with a short identifier</string>
+    <string name="add_note_hint">Patient Name</string>
+
+    <string name="login_or_create_account">Login or create an account</string>
+
+    <string name="login_to_see_your_account">Login to see your account</string>
+    <string name="login_required">Login required</string>
+    <string name="default_organization_name">My Eye Care Practice</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="requesting_token">Requesting Token...</string>
+    <string name="number_prefix_reading_card_empty_note">"Lens "</string>
+    <string name="today">TODAY</string>
+    <string name="yesterday">YESTERDAY</string>
+    <string name="date_of_birth">Date of Birth</string>
+
+    <string name="english_us" translatable="false">English (US)</string>
+    <string name="spanish_us" translatable="false">Español (MX,US)</string>
+    <string name="spanish_ES" translatable="false">Español (ES)</string>
+    <string name="french_FR" translatable="false">Français (FR,CA)</string>
+    <string name="german_DE" translatable="false">Deutsch</string>
+    <string name="dutch_NL" translatable="false">Nederlandse</string>
+    <string name="italy_IT" translatable="false">Italian</string>
+    <string name="portuguese_BR" translatable="false">Português</string>
+    <string name="chinese_Sim" translatable="false">简体中文</string>
+    <string name="japanese" translatable="false">日本語</string>
+
+    <string name="unkown_device" translatable="false">--</string>
+    <string name="device_number" translatable="false">#</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_visits">Visits (Premium)</string>
+    <string name="menu_customers">Customers (Premium)</string>
+    <string name="menu_measurements">Readings</string>
+    <string name="menu_buy">Order Device</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_settings">App Settings</string>
+    <string name="menu_updates">Check for Updates</string>
+    <string name="menu_signoff">Sign Off</string>
+    <string name="result_sph">SPH</string>
+    <string name="result_cyl">CYL</string>
+    <string name="result_axis">AXIS</string>
+    <string name="sph_eq_label">SEQ</string>
+    <string name="result_add">ADD</string>
+    <string name="visual_acuity_label">VA</string>
+    <string name="result_pd">PD</string>
+    <string name="netrometer_title">NETROMETER</string>
+    <string name="netrometer_sst_title">NETROMETER + STAGE</string>
+    <string name="no_lens_text">Ensure NO LENS is inserted\nwhen tapping the button</string>
+    <string name="no_lens_text_calibrating">Initializing the camera.\nDo not insert the lens yet.</string>
+    <string name="single_vision">SINGLE VISION</string>
+    <string name="bifocals">BIFOCALS</string>
+    <string name="progressive">PROGRESSIVE</string>
+    <string name="latest_readings">NETROMETER READINGS</string>
+    <string name="welcome">WELCOME</string>
+    <string name="email_login">E-mail</string>
+    <string name="password_login">Password</string>
+    <string name="pd_result">PD:</string>
+    <string name="notes_subtitle">Notes</string>
+    <string name="netrometer_results">NETROMETER RESULTS</string>
+    <string name="eyenetra_lensmeter">EyeNetra Lensmeter</string>
+    <string name="od">OD</string>
+    <string name="os">OS</string>
+    <string name="right_eye_short">OD</string>
+    <string name="left_eye_short">OS</string>
+
+    <string name="adjust_refraction">SUBJECTIVE REFRACTION</string>
+    <string name="refining_refraction">SUBJECTIVE REFRACTION</string>
+    <string name="skip_near_button">Skip Near</string>
+    <string name="restart_phone_camera_locked">Please restart the phone. Camera is locked by another application.</string>
+
+    <string name="calibrating">CALIBRATING</string>
+    <string name="attention_no_lens">Attention! Ensure NO LENS is inserted</string>
+    <string name="invalid_near_result">Invalid Near results</string>
+
+    <string name="capturing_netrometer_ID_title">Missing Device ID</string>
+    <string name="capturing_netrometer_ID_desc">To get accurate results, please inform the Serial Number of the device you have. Remove the phone from the device to see the tag that looks like the one below. Insert the number that starts with NM below</string>
+
+    <string name="patient">Patient</string>
+    <string name="app">App</string>
+    <string name="acuity_label">Acuity</string>
+    <string name="acuity_imperial">20/20</string>
+    <string name="acuity_metric">6/6</string>
+    <string name="minus_cylinder">Minus</string>
+    <string name="plus_cylinder">Plus</string>
+    <string name="sph_equivalent">SphEq</string>
+    <string name="spherocylindrical">Sph+Cyl</string>
+    <string name="sphere">Sphere</string>
+    <string name="display_results_as">DISPLAY RESULTS AS</string>
+    <string name="language_uppercase">LANGUAGE</string>
+    <string name="settings_header">SETTINGS</string>
+    <string name="cylinder_label">Cylinder</string>
+
+    <string name="asking_to_relogin_title">Your login information is outdated</string>
+    <string name="asking_to_relogin_desc">For security reasons, please login again. Would you like to do this right now? You need connection to the internet.</string>
+
+    <string name="yes_relogin">Yes. Log me off.</string>
+    <string name="no_delay_8_hours">No. Delay for 8 hours.</string>
+    <string name="remove_glasses">\n\nRemove\nglasses and\nInsert again</string>
+    <string name="pd_label">PD</string>
+    <string name="patient_email_hint" translatable="false">patient@server.com</string>
+
+    <string name="send_uppercase">SHARE</string>
+    <string name="sent_uppercase">SENT</string>
+    <string name="back_uppercase">CANCEL</string>
+
+    <string name="send_prescription_to">Contact Info</string>
+    <string name="recommended_use">Recommended Use  </string>
+    <string name="valid_for">Expiration  </string>
+
+    <string name="valid_for_6months">6mo</string>
+    <string name="valid_for_1year">1yr</string>
+    <string name="valid_for_2years">2yrs</string>
+
+    <string name="prescribing">SHARING</string>
+
+    <string name="prescribe_uppercase">SHARE</string>
+    <string name="prescribe_again_uppercase">RX INFO</string>
+
+    <string name="setup_account">Visit Account</string>
+    <string name="finish_account_title">Add a license number</string>
+    <string name="finish_account_desc">Please visit your on-line account to setup your Business name, First and Last names and include a License Number for the prescriptions</string>
+
+    <string name="please_insert_spherical_powers_title">Missing Information</string>
+    <string name="please_insert_spherical_powers_desc">Please add the spherical powers for the Left and Right eyes as well as PD.</string>
+
+    <string name="forgot_your_password"><a href="http://insight.eyenetra.com/recover_password">Forgot your password? Reset it here!</a></string>
+
+    <string name="recommended_use_smartphone">Smartphone</string>
+    <string name="recommended_use_reading">Reading</string>
+    <string name="recommended_use_computer">Computer</string>
+    <string name="recommended_use_driving">Driving</string>
+    <string name="recommended_use_constant_wear">Constant</string>
+    <string name="recommended_use_distance_vision">Distance</string>
+
+    <string name="dashboard_measurements">Measurements</string>
+    <string name="dashboard_prescriptions">Shares</string>
+    <string name="dashboard_readytosync">Ready to Sync</string>
+
+</resources>

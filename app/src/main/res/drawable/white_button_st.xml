@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:state_pressed="true">
+		<shape>
+			<solid android:color="@color/theme_light_gray" />
+			<stroke
+				android:width="@dimen/button_stroke_width"
+				android:color="@color/btn_next_background_pressed_smart_stage" />
+		</shape>
+	</item>
+
+	<item>
+		<shape>
+			<solid android:color="@color/theme_white" />
+			<stroke
+				android:width="@dimen/button_stroke_width"
+				android:color="@color/btn_next_background_smart_stage" />
+		</shape>
+	</item>
+
+</selector>

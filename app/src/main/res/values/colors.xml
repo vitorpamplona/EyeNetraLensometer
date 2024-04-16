@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theme_white">#ffffff</color>
+    <color name="theme_black">#000000</color>
+    <color name="theme_blue">#00BFFF</color>
+    <color name="theme_light_red">#FFCCCC</color>
+    <color name="theme_red">#FF0000</color>
+    <color name="theme_dark_blue">#4682B4</color>
+    <color name="theme_dark_gray">#AAA</color>
+    <color name="theme_transparent_gray">#CC202020</color>
+    <color name="theme_light_gray">#F2F2F2</color>
+
+    <color name="text_gray"> #FF6F6F6F </color>
+    <color name="text_blue"> #FF369BCA </color>
+    <color name="text_dark_blue"> #FF1862AB </color>
+    <color name="text_dot_circle_blue"> #FF36C5CA </color>
+
+    <color name="success">#7ED321</color>
+    <color name="error">#D0021B</color>
+
+    <item name="header_text" type="color">#369BCA</item>
+    <item name="header_text_smartstage" type="color">#FF1862AB</item>
+    <item name="sub_header_text" type="color">#313538</item>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#00BFFF</color>
+    <color name="buttonsColor">#25a5dd</color>
+
+    <color name="enabled_color">#313538</color>
+    <color name="disabled_color">#313538</color>
+
+
+    <item name="box_header_text" type="color">#868686</item>
+    <item name="sph_cyl_button_dark" type="color">#878787</item>
+    <item name="box_background" type="color">#E8E8E8</item>
+
+    <item name="btn_next_background" type="color">#7CC6E9</item>
+    <item name="btn_next_background_pressed" type="color">#26A5DF</item>
+    <item name="btn_next_background_disabled" type="color">#D8D8D8</item>
+    <item name="btn_next_text" type="color">#FFFFFF</item>
+
+    <item name="btn_next_background_smart_stage" type="color">#FF1862AB</item>
+    <item name="btn_next_background_pressed_smart_stage" type="color">#FF1862AD</item>
+    <item name="btn_next_background_disabled_smart_stage" type="color">#D8D8D8</item>
+
+    <item name="crosshair_circle_fill" type="color">#00000000</item>
+    <item name="crosshair_circle_stroke_wrong" type="color">#16181A</item>
+    <item name="crosshair_center" type="color">#E626A5DF</item>
+    <item name="crosshair_circle_stroke" type="color">#E626A5DF</item>
+
+    <item name="popup_background" type="color">#EA868686</item>
+    <color name="toolbarTransparent">#00FFFFFF</color>
+</resources>

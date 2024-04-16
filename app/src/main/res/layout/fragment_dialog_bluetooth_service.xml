@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/popup_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_margin="24dp"
+        android:background="@drawable/bkg_bt_layout">
+
+        <Button
+            style="@style/BluetoothSettingsButton"
+            android:id="@+id/reset_bluetooth"
+            android:text="RESET\nBLUETOOTH"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            style="@style/BluetoothSettingsButton"
+            android:id="@+id/request_discoverable"
+            android:text="MAKE PHONE DISCOVERABLE"
+            android:layout_centerHorizontal="true"/>
+
+    </LinearLayout>
+</RelativeLayout>

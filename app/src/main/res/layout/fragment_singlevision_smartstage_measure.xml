@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_y="165dp"
+                android:layout_height="@dimen/crosshair_view_height"
+                style="@style/SubHeader"
+                android:layout_marginBottom="48dp"
+                android:text="@string/waiting_for_glasses"
+                android:id="@+id/warning_no_glasses" />
+
+            <com.vitorpamplona.netrometer.activity.views.CrosshairView
+                android:id="@+id/crosshair_view"
+                android:layout_width="match_parent"
+                android:layout_y="190dp"
+                android:layout_height="@dimen/crosshair_view_height"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                style="@style/SubHeader"
+                android:layout_width="match_parent"
+                android:layout_y="165dp"
+                android:layout_height="@dimen/crosshair_view_height"
+                android:layout_marginBottom="48dp"
+                android:text="@string/remove_glasses"
+                android:id="@+id/remove_glasses" />
+
+
+            <ImageView
+                android:id="@+id/glasses"
+                android:layout_width="1060dp"
+                android:layout_height="975dp"
+                android:layout_x="-201dp"
+                android:layout_y="-172dp"
+                android:src="@drawable/glasses_single_vision_sst" />
+
+            <TextView
+                android:id="@+id/smart_stage_on"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_alignStart="@+id/phone_frame"
+                android:layout_below="@+id/frame"
+                android:layout_marginTop="69dp"
+                android:layout_x="314dp"
+                android:layout_y="158dp"
+                android:text="PD OFF" />
+
+        </AbsoluteLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/HeaderSmartStage"
+        android:layout_marginTop="16dp"
+        android:text="@string/load_left_distance"
+        android:id="@+id/instructions_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SubHeader"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/instructions_1"
+        android:text="@string/hold_trigger_tap_next"
+        android:id="@+id/instructions_2" />
+
+    <LinearLayout
+        android:id="@+id/realtime_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instructions_2"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="48dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/realtime_results_sph"
+                style="@style/SubHeader"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="-2.00" />
+
+            <TextView
+                android:id="@+id/realtime_results_cyl"
+                style="@style/SubHeader"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="-0.50" />
+
+            <TextView
+                android:id="@+id/realtime_results_axis"
+                style="@style/SubHeader"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="180" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/phone_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-75dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/phone_frame" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="238px"
+        android:layout_alignParentBottom="true"
+        android:text="@string/next_uppercase"
+        style="@style/Header"
+        android:layout_margin="16dp"
+        android:textColor="@color/btn_next_text"
+        android:background="@drawable/btn_smart_stage" />
+
+</RelativeLayout>

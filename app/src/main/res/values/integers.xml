@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="crosshair_view_center">250</integer>
+    <integer name="crosshair_circle_stroke">1</integer>
+    <integer name="crosshair_circle_stroke_inside">3</integer>
+
+</resources>

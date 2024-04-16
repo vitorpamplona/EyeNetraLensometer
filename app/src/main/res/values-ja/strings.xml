@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ネトロプター</string>
+    <string name="account_name">EyeNetra</string>
+
+    <string name="load_left_hold_trigger">左レンズを測ります</string>
+    <string name="load_right_hold_trigger">右レンズを測ります レンズホルダーレバーを引いてください</string>
+    <string name="scanning">解析しています</string>
+    <string name="adjust_position">レンズ位置を調整してください。</string>
+    <string name="trigger_to_start">レンズホールドレバーを引いてスタートしてください</string>
+
+    <string name="we_are_all_set_title">準備完了です</string>
+    <string name="we_are_all_set_desc">始めましょう！ \n</string>
+
+    <string name="remove_lens_title">異常が検知されました（レンズ誤挿入）</string>
+    <string name="remove_lens_desc">キャリブレーションが出来ません。キャリブレーション中にレンズが挿入されていないか確認してください</string>
+
+    <string name="unable_to_find_pattern_title">異常が検知されました（パターン検知異常）</string>
+    <string name="unable_to_find_pattern_desc">キャリブレーションが出来ません。デバイスがネトロプターに正しくセットされているかご確認ください</string>
+
+    <string name="flash_does_not_start_title">異常が検知されました（フラッシュ異常）</string>
+    <string name="flash_does_not_start_desc">フラッシュがONしません。代理店にご連絡ください</string>
+
+    <string name="update_title">新しいバージョンがあります</string>
+    <string name="update_desc">最新のバージョンをアップデートするにはGOOGLE PLAY を起動し、ダウンロードしてください。アップデートは2週間に一度リリースされます </string>
+    <string name="take_me_to_the_app">GOOGLE PLAYを起動する</string>
+    <string name="no_not_now">いいえ、後で</string>
+
+    <string name="camera_locked_title">カメラがロックされました</string>
+    <string name="camera_locked_desc">他のアプリが起動中です。使用している全アプリを閉じるか再起動を行ってください</string>
+
+    <string name="message_cant_find_pattern">パターンが検知できません</string>
+    <string name="message_adjust_glass_position">レンズ位置を調整してください</string>
+    <string name="invalid_results_no_lenses">解析結果に異常が見られます。 レンズが正しくセットされているかご確認ください </string>
+
+    <string name="start_screen">画面をスタートしてください</string>
+    <string name="result_screen">結果</string>
+    <string name="right_result_column">右</string>
+    <string name="left_result_column">左</string>
+
+    <string name="wait">お待ちください</string>
+    <string name="hold_trigger">レンズホールドレバーを引いてください</string>
+    <string name="hold_trigger_tap_next">レンズホールドレバーを引いて『次へ』をタップしてください</string>
+    <string name="hold_trigger_to_restart">レンズホールドレバーを引いて再起動してください</string>
+    <string name="tap_to_start">タップしてスタートしてください</string>
+    <string name="tap_to_restart">レンズを取り除きボタンをタップして再起動してください</string>
+    <string name="start_uppercase">スタート</string>
+    <string name="restart_uppercase">再起動</string>
+    <string name="finish_uppercase">閉じる</string>
+    <string name="finish_with_note_uppercase">ノートの追加</string>
+    <string name="next_uppercase">次へ</string>
+    <string name="load_left">左レンズを挿入してください</string>
+    <string name="load_left_distance">左レンズの遠用部を測ります</string>
+    <string name="load_left_near">左レンズの近用部を測ります</string>
+    <string name="load_right">右レンズを挿入してください</string>
+    <string name="load_right_distance">右レンズの遠用部を測ります</string>
+    <string name="load_right_near">右レンズの近用部を測ります</string>
+    <string name="load_skip_near">近用部を測りません</string>
+    <string name="login">ログイン</string>
+    <string name="signup">サインアップ</string>
+    <string name="waiting_for_glasses">レンズを挿入してください</string>
+    <string name="age_hint">年齢</string>
+
+    <string name="navigation_drawer_open">『navigation drawer』を開く</string>
+    <string name="navigation_drawer_close">『navigation drawer』を閉じる</string>
+    <string name="action_settings">設定</string>
+
+    <string name="not_online_title">オフラインです</string>
+    <string name="not_online_desc">ログインやサインアップの前にデバイスをWIFIに繋いでください</string>
+
+    <string name="missing_email">Eメールを入力してください</string>
+    <string name="insert_valid_email">有効なEメールを入力して下さい</string>
+    <string name="invalid_email_title">無効なEメールです</string>
+    <string name="email_format_is_invalid">Eメール形式が有効ではありません</string>
+    <string name="invalid_password">パスワードが違います</string>
+    <string name="insert_a_valid_password">８文字の大文字と数字が入ったパスワードを入れてください</string>
+    <string name="authenticating">確認しています</string>
+    <string name="invalid_login_msg">Eメールかパスワードが違います</string>
+    <string name="login_invalid">ログインが出来ません</string>
+    <string name="incomplete_sign_up">登録が完了してません</string>
+
+    <string name="minus_cyl_label">-CYL</string>
+    <string name="plus_cyl_label">+CYL</string>
+
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+
+    <string name="add_note">ノートの追加</string>
+    <string name="add_note_desc">短文識別子でのタグ結果</string>
+    <string name="add_note_hint">被験者名</string>
+
+    <string name="login_to_see_your_account">アカウント内容を確認する為にログインしてください</string>
+    <string name="login_required">ログインをしてください</string>
+    <string name="default_organization_name">組織名</string>
+
+    <string name="save">保存する</string>
+    <string name="cancel">キャンセル</string>
+    <string name="ok">OK</string>
+
+    <string name="requesting_token">トークンをリクエストしています</string>
+    <string name="number_prefix_reading_card_empty_note">「レンズ」 </string>
+    <string name="today">今日</string>
+    <string name="yesterday">昨日</string>
+    <string name="date_of_birth">生年月日</string>
+
+
+    <string name="menu_home">ホーム</string>
+    <string name="menu_visits">訪問（プレミアム）</string>
+    <string name="menu_customers">顧客（プレミアム）</string>
+    <string name="menu_insight">インサイト　ポータル</string>
+    <string name="menu_measurements">測定値</string>
+    <string name="menu_buy">デバイスの購入</string>
+    <string name="menu_support">サポート</string>
+    <string name="menu_settings">アプリ設定</string>
+    <string name="menu_signoff">サインアウト</string>
+    <string name="result_sph">SPH</string>
+    <string name="result_cyl">CYL</string>
+    <string name="result_axis">AXIS</string>
+    <string name="sph_eq_label">SEQ</string>
+    <string name="result_add">ADD</string>
+    <string name="visual_acuity_label">VA</string>
+    <string name="result_pd">PD</string>
+    <string name="netrometer_title">ネトロメーター</string>
+    <string name="netrometer_sst_title">ネトロメーター + ステージ</string>
+    <string name="no_lens_text">ボタンをタップする時レンズが挿入されていないことを確認してください</string>
+    <string name="no_lens_text_calibrating">ボタンを押す時レンズが挿入されていないことを確認してください</string>
+    <string name="single_vision">単焦点レンズ</string>
+    <string name="bifocals">遠近両用レンズ</string>
+    <string name="progressive">累進レンズ</string>
+    <string name="latest_readings">NETROMETER　読込中</string>
+    <string name="welcome">ようこそ</string>
+    <string name="email_login">Eメール</string>
+    <string name="password_login">パスワード</string>
+    <string name="pd_result">PD:</string>
+    <string name="notes_subtitle">Notes</string>
+    <string name="netrometer_results">NETROMETER結果</string>
+    <string name="eyenetra_lensmeter">EyeNetra レンズメーター</string>
+    <string name="od">OD</string>
+    <string name="os">OS</string>
+    <string name="right_eye_short">OD</string>
+    <string name="left_eye_short">OS</string>
+
+    <string name="adjust_refraction">屈折調整</string>
+    <string name="refining_refraction">屈折精製</string>
+    <string name="skip_near_button">近用計測ボタンをスキップ</string>
+    <string name="restart_phone_camera_locked">再起動してください。 カメラは別のアプリケーションによってロックされています</string>
+
+    <string name="calibrating">校正</string>
+    <string name="attention_no_lens">注意！ レンズが挿入されていないことを確認してください</string>
+    <string name="invalid_near_result">近用計測結果が無効です</string>
+
+    <string name="capturing_netrometer_ID_title">デバイスIDがありません</string>
+    <string name="capturing_netrometer_ID_desc">正確な結果を得るには、お使いのデバイスシリアル番号をお知らせください。 デバイスから電話を取り外し、次のようなタグを確認します。 NMで始まる番号を下に入れてください</string>
+
+    <string name="patient">被験者</string>
+    <string name="app">App</string>
+    <string name="acuity_label">視力</string>
+    <string name="acuity_imperial">20/20</string>
+    <string name="acuity_metric">6/6</string>
+    <string name="minus_cylinder">－</string>
+    <string name="plus_cylinder">＋</string>
+    <string name="sph_equivalent">SphEq</string>
+    <string name="spherocylindrical">Sph+Cyl</string>
+    <string name="sphere">球体</string>
+    <string name="display_results_as">結果を表示</string>
+    <string name="language_uppercase">言語</string>
+    <string name="settings_header">設定</string>
+    <string name="cylinder_label">シリンダー</string>
+
+    <string name="asking_to_relogin_title">ログイン情報を新しくしてください</string>
+    <string name="asking_to_relogin_desc">セキュリティ上の理由から、再度ログインしてください。 今すぐこれを実行しますか？ インターネットへの接続が必要です</string>
+
+    <string name="yes_relogin">はい。ログオフしてください</string>
+    <string name="no_delay_8_hours">いいえ。 ８時間後にログオフします</string>
+    <string name="remove_glasses">メガネを取り外して再度挿入する </string>
+    <string name="pd_label">PD</string>
+
+    <string name="send_uppercase">送信する</string>
+    <string name="sent_uppercase">送信されました</string>
+    <string name="back_uppercase">キャンセルする</string>
+
+    <string name="send_prescription_to">処方箋を送る</string>
+    <string name="recommended_use">推奨用途</string>
+    <string name="valid_for">有効 </string>
+
+    <string name="valid_for_6months">6カ月</string>
+    <string name="valid_for_1year">1年</string>
+    <string name="valid_for_2years">2年</string>
+
+    <string name="prescribing">処方する</string>
+    <string name="prescribe_uppercase">処方箋</string>
+    <string name="prescribe_again_uppercase">調剤情報</string>
+
+    <string name="setup_account">アカウントにアクセスする</string>
+    <string name="finish_account_title">ライセンス番号を追加する</string>
+    <string name="finish_account_desc">オンラインアカウントにアクセスして、商用名、姓、名を設定し、処方箋のライセンス番号を入れて下さい</string>
+
+    <string name="please_insert_spherical_powers_title">情報が足りません</string>
+    <string name="please_insert_spherical_powers_desc">左目と右目の球面度数を追加してください</string>
+
+    <string name="forgot_your_password"><a href="http://insight.eyenetra.com/recover_password">パスワードをお忘れですか？ リセットしてください</a></string>
+
+    <string name="recommended_use_smartphone">スマートフォン</string>
+    <string name="recommended_use_reading">読み取り中</string>
+    <string name="recommended_use_computer">コンピューター</string>
+    <string name="recommended_use_driving">運転中</string>
+    <string name="recommended_use_constant_wear">定数</string>
+    <string name="recommended_use_distance_vision">距離</string>
+
+    <string name="dashboard_measurements">近用</string>
+    <string name="dashboard_prescriptions">共有</string>
+    <string name="dashboard_readytosync">同期準備完了</string>
+    <string name="login_or_create_account">ログインまたはアカウントを作成</string>
+    <string name="menu_updates">更新を確認する</string>
+    <string name="unable_to_complete_request">リクエストを完了できません。 オンラインであることを確認してください。 問題が解決しない場合は、info @ eyenetra.comまでご連絡ください。</string>
+
+</resources>
+

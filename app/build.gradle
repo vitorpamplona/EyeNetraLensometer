@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.vitorpamplona.netrometer'
+
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.vitorpamplona.netrometer"
+        versionName VERSION_NAME
+        versionCode VERSION_CODE.toInteger()
+
+        minSdkVersion 19
+        targetSdkVersion 34
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable true
+        }
+    }
+
+    buildTypes.each {
+        it.buildConfigField "String", "APP_NAME", "\"${APP_NAME}\""
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+        unitTests.includeAndroidResources = true
+    }
+
+    lint {
+        disable 'MissingTranslation'
+    }
+}
+
+tasks.withType(Test).configureEach {
+    scanForTestClasses = true
+}
+
+dependencies {
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+
+    implementation files('libs/ejml-0.24.jar')
+    implementation files('libs/opencsv-3.1.jar')
+    implementation 'com.google.code.ndef-tools-for-android:ndeftools:1.2.4'
+
+    implementation 'net.rimoto:intlphoneinput:1.0.1'
+
+    // New App Version notification
+    implementation 'org.apache.commons:commons-math3:3.6.1'
+    // calculations
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation "org.robolectric:robolectric:4.12"
+    // Tests using Activities and Contexts
+}

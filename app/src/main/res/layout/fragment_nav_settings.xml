@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/instructions_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Header"
+        android:layout_marginTop="16dp"
+        android:text="@string/settings_header"
+        android:layout_marginBottom="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/instructions_1"
+        android:layout_above="@+id/back_button"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/display_results_as"
+            style="@style/BoxText"
+            android:id="@+id/txCat1"
+            android:layout_marginBottom="10dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:layout_marginLeft="10dp"
+            android:useDefaultMargins="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sphere"
+                style="@style/BoxText"
+                android:id="@+id/txSphModel"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical" />
+
+            <RadioGroup
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:measureWithLargestChild="false"
+                android:longClickable="false">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/spherocylindrical"
+                    style="@style/SubSubHeader"
+                    android:id="@+id/rbSphCyl"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sph_equivalent"
+                    style="@style/SubSubHeader"
+                    android:id="@+id/rbSphEq"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cylinder_label"
+                style="@style/BoxText"
+                android:id="@+id/txCylModel"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical" />
+
+            <RadioGroup
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/minus_cylinder"
+                    style="@style/SubSubHeader"
+                    android:id="@+id/rbMinusCyl"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plus_cylinder"
+                    style="@style/SubSubHeader"
+                    android:id="@+id/rbPlusCyl"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/acuity_label"
+                style="@style/BoxText"
+                android:id="@+id/txAcuityModel"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:singleLine="false" />
+
+            <RadioGroup
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/acuity_imperial"
+                    style="@style/SubSubHeader"
+                    android:id="@+id/rbAcuityImperial"
+                    android:checked="false"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/acuity_metric"
+                    style="@style/SubSubHeader"
+                    android:id="@+id/rbAcuityMetric"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:layout_weight="1" />
+            </RadioGroup>
+
+
+        </GridLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_uppercase"
+            style="@style/BoxText"
+            android:id="@+id/txCat2"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app"
+                style="@style/BoxText"
+                android:id="@+id/txAppLanguage"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginBottom="10dp"
+                android:gravity="left|center_vertical"
+                android:layout_marginRight="80dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:id="@+id/llAppLanguage"
+                android:layout_gravity="left"
+                android:layout_marginBottom="10dp">
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/imAppLocale"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:src="@drawable/france"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="10dp"
+                    android:padding="0dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/language_uppercase"
+                    style="@style/SubSubHeader"
+                    android:id="@+id/txAppLanguageText"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="238px"
+        android:layout_alignParentBottom="true"
+        android:text="@string/menu_home"
+        style="@style/Header"
+        android:layout_margin="16dp"
+        android:textColor="@color/btn_next_text"
+        android:background="@drawable/btn_next"
+        />
+
+</RelativeLayout>

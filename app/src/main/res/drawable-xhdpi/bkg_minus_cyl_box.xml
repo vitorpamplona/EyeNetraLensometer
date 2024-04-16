@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape>
+            <solid android:color="@color/box_background"/>
+
+
+
+            <corners android:bottomRightRadius="8px" android:bottomLeftRadius="8px"
+                android:topLeftRadius="8px" android:topRightRadius="8px"/>
+        </shape>
+    </item>
+    <item>
+        <rotate
+            android:fromDegrees="45"
+            android:toDegrees="45"
+            android:pivotX="100%"
+            android:pivotY="125%">
+                <shape
+                    android:shape="rectangle" >
+                    <stroke android:color="@color/toolbarTransparent" android:width="10dp"/>
+                    <solid
+                        android:color="@color/box_header_text" />
+                </shape>
+        </rotate>
+    </item>
+</layer-list>

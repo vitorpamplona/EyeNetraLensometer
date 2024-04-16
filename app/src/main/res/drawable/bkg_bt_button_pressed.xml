@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/btn_next_background_pressed"/>
+
+    <padding android:left="4dp"
+        android:top="4dp"
+        android:right="4dp"
+        android:bottom="4dp"
+        />
+
+    <corners android:bottomRightRadius="8px" android:bottomLeftRadius="8px"
+        android:topLeftRadius="8px" android:topRightRadius="8px"/>
+</shape>

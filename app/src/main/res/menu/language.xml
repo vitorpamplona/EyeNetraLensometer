@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/lang_english_US"
+        android:icon="@drawable/usa"
+        android:title="@string/english_us" />
+    <item
+        android:id="@+id/lang_spanish_US"
+        android:icon="@drawable/mexico"
+        android:title="@string/spanish_us" />
+    <item
+        android:id="@+id/lang_spanish_Spain"
+        android:icon="@drawable/spain"
+        android:title="@string/spanish_ES" />
+    <item
+        android:id="@+id/lang_french_France"
+        android:icon="@drawable/france"
+        android:title="@string/french_FR" />
+    <item
+        android:id="@+id/lang_italian_Italy"
+        android:icon="@drawable/italy"
+        android:title="@string/italy_IT" />
+    <item
+        android:id="@+id/lang_german_Germany"
+        android:icon="@drawable/germany"
+        android:title="@string/german_DE" />
+    <item
+        android:id="@+id/lang_dutch_Netherlands"
+        android:icon="@drawable/netherlands"
+        android:title="@string/dutch_NL" />
+    <item
+        android:id="@+id/lang_japanese"
+        android:icon="@drawable/japan"
+        android:title="@string/japanese" />
+    <item
+        android:id="@+id/lang_portuguese_Brasil"
+        android:icon="@drawable/brazil"
+        android:title="@string/portuguese_BR" />
+    <item
+        android:id="@+id/lang_chinese_Simplified"
+        android:icon="@drawable/china"
+        android:title="@string/chinese_Sim" />
+
+</menu>

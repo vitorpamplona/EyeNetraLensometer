@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/instructions_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/HeaderSmartStage"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/calibrating"
+        />
+
+    <TextView
+        android:id="@+id/instructions_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SubHeader"
+        android:text="@string/no_lens_text_calibrating"
+        android:layout_below="@id/instructions_1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/stop_calibrating"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="238px"
+            android:text="@string/cancel"
+            style="@style/Header"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/btn_next_text"
+            android:background="@drawable/btn_back"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/netrometer_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/netrometer_image_smartstage"
+        android:layout_below="@id/instructions_2"
+        android:layout_above="@id/buttons_layout"
+        android:padding="16dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sucess_image"
+        android:src="@drawable/success_check"
+        android:layout_below="@id/instructions_2"
+        android:layout_above="@id/buttons_layout"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/error_image"
+        android:src="@drawable/error_check"
+        android:layout_below="@id/instructions_2"
+        android:layout_above="@id/buttons_layout"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+
+
+</RelativeLayout>
