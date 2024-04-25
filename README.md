@@ -53,12 +53,12 @@ openssl base64 < <my-release-key.keystore> | tr -d '\n' | tee some_signing_key.j
 3. Change the `versionCode` and `versionName` on `app/build.gradle`
 4. Commit and push.
 5. Tag the commit with `v{x.x.x}`
-6. Let the [Create Release GitHub Action](https://github.com/vitorpamplona/netrometer/actions/workflows/create-release.yml) build a new `apk` file.
+6. Let the [Create Release GitHub Action](https://github.com/vitorpamplona/EyeNetraNetrometer/actions/workflows/create-release.yml) build a new `apk` file.
 7. Add your CHANGE LOG to the description of the new release
 
 # Contributing
 
-[Issues](https://github.com/vitorpamplona/netrometer/issues) and [pull requests](https://github.com/vitorpamplona/netrometer/pulls) are very welcome.
+[Issues](https://github.com/vitorpamplona/EyeNetraNetrometer/issues) and [pull requests](https://github.com/vitorpamplona/EyeNetraNetrometer/pulls) are very welcome.
 
 # Regulatory Notice
 
